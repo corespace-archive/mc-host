@@ -1,0 +1,117 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+#logfield {
+    height: 90%;
+    margin: 0em;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+
+#commandConsole {
+    position: absolute;
+    top: 80.0%;
+    left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#commandConsole #commandField{
+    background-color: black;
+    vertical-align: middle;
+    border-style: none;
+    border-top-color: white;
+    border-top-style: solid;
+    border-top-width: 1px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    resize: none;
+    width: 1090px;
+    height: 25px;                
+}
+
+#commandConsole #commandField:focus { 
+    outline: none !important;
+    /* border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE; */
+}
+
+#commandConsole #sendCommand {
+    background-color: black;
+    border: none;
+    margin-top: 5px;
+    padding: 0px;
+    color: white;
+    width: 120px;
+    height: 30px;
+}
+
+li.new-entry {
+    color: white;
+    height: 20px;
+    background:none;
+}
+
+.logContainer {
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    height: 500px;
+    width: 1100px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.act_btn {
+    width: 130px;
+    height: 35px;
+    border: none;
+    position: absolute;
+}
+
+.act_btn:first-child {
+    top: 21%;
+    left: 440px;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.act_btn:nth-child(2) {
+    top: 21%;
+    left: 575px;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.act_btn:last-child {
+    top: 21%;
+    left: 710px;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#btn_start {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+#btn_restart {
+    background-color: #E65100;
+    color: white;
+    font-weight: bold;
+}
+
+#btn_stop {
+    background-color: #b71c1c;
+    color: white;
+    font-weight: bold;
+}
